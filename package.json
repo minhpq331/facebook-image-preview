@@ -1,0 +1,14 @@
+{
+  "name": "facebook-image-preview",
+  "version": "1.0.0",
+  "description": "Generate facebook image preview on demand",
+  "main": "index.js",
+  "repository": "git@github.com:minhpq331/facebook-image-preview.git",
+  "author": "Minh Monmen <minhpq331@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6"
+  }
+}
