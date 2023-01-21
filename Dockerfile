@@ -1,4 +1,4 @@
-FROM node:18-alpine AS builder
+FROM node:18-alpine
 
 LABEL AUTHOR=minhpq331@gmail.com
 EXPOSE 3000
