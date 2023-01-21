@@ -5,8 +5,6 @@ EXPOSE 3000
 
 WORKDIR /app
 
-RUN yarn global add node-gyp 
-
 ADD . /app
 RUN yarn --pure-lockfile
 CMD ["node", "index.js"]
